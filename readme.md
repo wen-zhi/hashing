@@ -2,9 +2,9 @@ Python implementations of hashing model
 ---------------------------------------
 
 The implemented hashing models include:
-- LSH
-- PCA-ITQ, CCA-ITQ
-- SDH
+- LSH<sup>1</sup>
+- PCA-ITQ, CCA-ITQ<sup>2</sup>
+- SDH<sup>3</sup>
 
 Requirements
 ------------
@@ -95,3 +95,8 @@ print("Recall:")
 print(recall)
 ```
 
+# References
+
+[1] M. S. Charikar, “**Similarity Estimation Techniques from Rounding Algorithms**,” in Proceedings of the Thiry-Fourth Annual ACM Symposium on Theory of Computing, New York, NY, USA, 2002, pp. 380–388, doi: 10.1145/509907.509965.  
+[2] Y. Gong and S. Lazebnik, “**Iterative quantization: A procrustean approach to learning binary codes**,” in 2011 IEEE Conference on Computer Vision and Pattern Recognition, Piscataway, NJ, USA, Jun. 2011, pp. 817–824.  
+[3] F. Shen, C. Shen, W. Liu, and H. Tao Shen, “**Supervised Discrete Hashing**,” in 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Piscataway, NJ, USA, Jun. 2015, pp. 37–45.
