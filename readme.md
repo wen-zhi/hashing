@@ -19,7 +19,7 @@ conda activate hashing
 Usage
 ------
 
-The current implemented models are `LSH, ITQ, ITQ_CCA, SDH`. All the model share the same interface,
+The current implemented models are `LSH, ITQ, ITQ_CCA, SDH`. All the models share the same interface,
 so it is very easy to use them. The Following are two examples:
 
 > You can download **MNIST-GIST512D** from [here](https://drive.google.com/open?id=14MG9OGekFROlbe-aLHuNlRMiFZITHFhh).
